@@ -14,6 +14,7 @@ namespace Model
         [Key]
         public int businessid { get; set; }
         public string  id { get; set; }
+
         public string name { get; set; }
         public string introduction { get; set; }
         public string excerpt { get; set; }
